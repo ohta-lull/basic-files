@@ -30,7 +30,10 @@ var swiper = new Swiper('.swiper-container', {
   crossFade: true,
 });
 
-objectFitImages('.photo-ofi img');
+$(function () {
+  objectFitImages('img.object', '.photo ofi img');
+});
+
 
 // AOS
 $(function () {
