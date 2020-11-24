@@ -11,38 +11,69 @@
     <!-- ファビコン -->
     <link rel="icon" href="favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <!--cssここから-->
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/reset.css">
+    <!-- cssここから -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/reset.css">
     <!-- bootstrap -->
-    <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" href="./css/bootstrap4-print.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap4-print.css">
     <!-- フォントオーサムつかうなら -->
-    <link rel="stylesheet" href="./css/fontawesome.min.css">
-    <link rel="stylesheet" href="./css/solid.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/solid.min.css">
     <!-- 作成するcss -->
-    <link rel="stylesheet" href="./css/style.css">
-    <!-- cssここまで -->
-    <!-- jsここから -->
-    <script src="./js/jquery-3.5.1.min.js"></script>
-    <script src="./js/tel-3.1.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- /cssここまで -->
+    <!-- jsここから-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/tel-3.1.js"></script>
     <script src="js/ofi.js"></script>
     <!-- 問い合わせページのときだけ -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- bootstrap -->
-    <script src="./js/bootstrap.js"></script>
+    <script src="js/bootstrap.js"></script>
     <!-- googleフォント -->
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&family=Noto+Sans+JP&display=swap" rel="stylesheet">
     <!--　作成するjs　-->
-    <script src="./js/script.js"></script>
-    <!-- jsここまで -->
+    <script src="js/script.js"></script>
+    <!-- /jsここまで -->
 </head>
 
 <body>
     <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="navbar-header">
+            <!-- ハンバーガー -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#gnavi">
+              <span class="sr-only">メニュー</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- /ハンバーガー -->
+            <!-- ロゴ -->
+            <div class="header_logo">
+              <h1><a href="#"><img src="images/logo.png" alt="仕様書のh1対応テキスト"></a></h1>
+            </div>
+          </div>
+          <!-- /ロゴ -->
+    
+          <div id="gnavi" class="collapse navbar-collapse">
+            <p class="header_tel"><span data-action="call"><i class="fas fa-phone"></i>0120-123-456</span></p>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="nav-jp current">HOME</span></a></li>
+              <li><a href="#"><span class="nav-jp">会社案内</span></a></li>
+              <li><a href="#"><span class="nav-jp">商品紹介</span></a></li>
+              <li><a href="#"><span class="nav-jp">商品情報</span></a></li>
+              <li><a href="#"><span class="nav-jp">品質への取り組み</span></a></li>
+              <li><a href="#"><span class="nav-jp">お問い合わせ</span></a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    <!-- <header>
         <h1 class="header-left">
             <a href="index.html">
-                <img src="./img/logo-header.png" alt="仕様書のh1対応テキスト">
+                <img src="img/logo-header.png" alt="仕様書のh1対応テキスト">
             </a>
         </h1>
         <div class="header-right">
@@ -101,7 +132,7 @@
                 <span></span>
             </div>
         </div>
-    </header>
+    </header> -->
 
     <main>
         <div class="sub-header">
